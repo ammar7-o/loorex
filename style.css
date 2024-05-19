@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Alexandria", sans-serif;    
+}
+#fix{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    background-image: linear-gradient(to left,rgb(0, 155, 155),rgb(148, 26, 148));
+}
+nav img{
+    width: 50px;
+    /* From https://css.glass */
+background: rgba(0, 0, 0, 0.69);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.2px);
+-webkit-backdrop-filter: blur(7.2px);
+border: 1px solid rgba(0, 0, 0, 0.15);
+       border-radius: 40%;
+   }
+
+nav h1{
+    color: white;
+}
+.con{
+    width: 100%;
+    display: flex;
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(img/forest-7774205_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: all 1s;
+    z-index: 2;
+    
+}
+.mom{
+    display: flex;
+    flex-direction: column;
+}
+#hover:hover{
+/* From https://css.glass */
+background: rgba(234, 234, 234, 0.51);
+border-radius: 4px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.4px);
+-webkit-backdrop-filter: blur(4.4px);
+border: 1px solid rgba(234, 234, 234, 0.14);
+}
+.side-bar{
+    width: 100%;
+/* From https://css.glass */
+background: rgba(234, 234, 234, 0.51);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.4px);
+-webkit-backdrop-filter: blur(4.4px);
+border: 1px solid rgba(234, 234, 234, 0.14);
+transition: 0.6s;
+display: flex;
+align-items: center;
+padding: 10px;
+overflow: hidden;
+margin: 0;
+z-index: 3;
+h2{
+margin: 5px;    font-size: 16px;
+}
+img{
+    width: 40px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+}
+
+    
+marquee{
+    z-index: 10;
+    font-family: "Alexandria", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  
+}
+.side-bar .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.content:hover{
+    background-color: aqua;
+}
+.side-bar-large{
+    width: 100%;
+    align-items: start;
+
+    height: auto;
+h2{
+    display: block;
+}
+img{
+    margin-left: 10px;
+}
+}
+main{
+   
+
+  width: 100%;
+}
+::-webkit-scrollbar{
+    width: 20px;
+    z-index: 4;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+    
+    z-index: 4;
+
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to top,aqua,violet);
+    transition: 2s;
+    z-index: 4;
+
+}
+:-webkit-scrollbar-thumb:hover{
+    background-image: linear-gradient(to bottom,aqua,violet);
+    z-index: 4;
+
+
+}
+.titr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    width: 93.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left,violet,aqua );
+    color: white;
+position: fixed;
+    img{
+       
+}
+}
+.xx:c{
+    background-color: black;
+}
+.xx{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+.corse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #043e9b;
+    width: 40%;
+    border-radius: 7px;
+    color: white;
+    transition: 0.6s;
+   height: 100px;
+  overflow: hidden;
+
+   .link{
+    display: none;
+    align-items: center;
+   }
+   br{
+    display: none;
+
+   }
+}
+.corse::-webkit-scrollbar{
+    width: 0px;
+    z-index: 4;
+}
+.corseh::-webkit-scrollbar{
+    width: 0px;
+    z-index: 4;
+}
+.corse-large{
+    width: 40%;
+    height: 400px;
+}
+.tit{
+    transition: 0.6s;
+
+    display: flex;
+    align-items: center;
+a{
+    color: aquamarine;
+    margin-left: 5px;
+}
+img{
+    width: 40px;
+    margin: 8px;
+}
+}
+.link{
+    display: flex;
+    align-items: center;
+    transition: 0.6s;
+    direction: rtl;
+margin: 10px;
+    a{
+        color: aquamarine;
+        margin-right: 5px;
+    }
+}
+.corse:hover{
+    transition: all 0.6s;
+    justify-content: start;
+  overflow: scroll;
+    .link{
+     display: flex;
+    }
+    br{
+     display: block;
+    }
+}
+.link iframe{
+    width: 450px;
+    height: 270px;
+}
+
+#ch{
+    overflow: auto;
+}
+#ch::-webkit-scrollbar{
+    width: 0px;
+    height: 0;
+}
+.corse::-webkit-scrollbar{
+    width: 0px;
+    height: 0;
+}
+.cat{
+    background-color: #333A73;
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+    margin: 0;
+}
+.cat:hover{
+    background-color: #874CCC;
+}
+
+@media (max-width:600px) {
+    .mom{
+        flex-direction: column;
+    }
+    
+    .tot{
+    
+            display: none;
+        
+    }
+    .title{
+
+    }
+    .side-bar{
+    align-items: start;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    margin-top: 87px;
+    }
+    .side-bar .content{
+        width: 160px;
+        padding: 3px;
+        display: flex;
+        flex-direction: column;
+        margin: 3px;
+        img{
+            width: 35px;
+        }
+    }
+    .side-bar::-webkit-scrollbar{
+        width: 0px;
+        z-index: -77;
+    }
+    .side-bar-large{
+        align-items: start;
+    
+        
+    h2{
+        display: none;
+    }
+    img{
+        margin-left: 10px;
+    }
+    }
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .xx{
+        flex-direction: column;
+        width: 100%;
+    }
+    .corse{
+        width: 90%;
+    }
+   .tit{
+    font-size: 14px;
+   }
+    .title{
+        width: 100%;
+        height: 70px;
+    }
+    ::-webkit-scrollbar{
+        width: 0px;
+        z-index: 4;
+    }
+    ::-webkit-scrollbar-track{
+        background-color: white;
+        
+        z-index: 4;
+    
+    }
+    ::-webkit-scrollbar-thumb{
+        background-image: linear-gradient(to top,aqua,violet);
+        transition: 2s;
+        z-index: 4;
+    
+    }
+    :-webkit-scrollbar-thumb:hover{
+        background-image: linear-gradient(to bottom,aqua,violet);
+        z-index: 4;
+    
+    
+    }
+    #cat{
+        margin-top: 70px;
+    }
+    .link iframe{
+        width: 400px;
+        height: 220px;
+    }
+}
