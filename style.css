@@ -121,8 +121,14 @@ main{
     color: white;
 position: fixed;
     img{
-        width: 50px;
-        background-color: black;
+       width: 70px;
+       /* From https://css.glass */
+background: rgba(132, 132, 132, 0.32);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.2px);
+-webkit-backdrop-filter: blur(7.2px);
+border: 1px solid rgba(132, 132, 132, 0.56);
         border-radius: 40%;
         margin: 7px;
     }
