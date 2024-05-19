@@ -43,6 +43,7 @@ marquee{
     color: black;
     display: inline;
     font-size: 16px;
+   margin: 3px;
 }
 .side-bar .content{
     display: flex;
@@ -121,14 +122,14 @@ main{
     color: white;
 position: fixed;
     img{
-       width: 70px;
-       /* From https://css.glass */
-background: rgba(132, 132, 132, 0.32);
+        width: 60px;
+     /* From https://css.glass */
+background: rgba(0, 0, 0, 0.69);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(7.2px);
 -webkit-backdrop-filter: blur(7.2px);
-border: 1px solid rgba(132, 132, 132, 0.56);
+border: 1px solid rgba(0, 0, 0, 0.15);
         border-radius: 40%;
         margin: 7px;
     }
